@@ -12,7 +12,7 @@
 source ~/.bashrc
 # conda create -n dsgd_lrcmc python=3.10
 conda activate dsgd_lrcmc
-conda install -c conda-forge pytorch numpy pandas matplotlib yyaml seaborn
+conda install -c conda-forge pytorch numpy pandas matplotlib pyyaml seaborn scikit-learn
 # conda install -c conda-forge mpi4py petsc4py slepc4py pytorch pyyaml scipy scikit-learn pandas scikit-fda
 # conda install -c conda-forge seaborn
 # conda install -c conda-forge r-base r-essentials r-gparotation -y
